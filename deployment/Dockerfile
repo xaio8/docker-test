@@ -4,7 +4,7 @@ RUN rm -rf /usr/share/nginx/html/*
 
 COPY src/index.html /usr/share/nginx/html/
 COPY src/app.js /usr/share/nginx/html/
-COPY deployment/nginx.config /etc/nginx/conf.d/default.conf
+COPY deployment/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
 
