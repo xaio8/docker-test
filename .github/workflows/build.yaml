@@ -37,4 +37,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ghrc.io/xaio8/docker-test:${{ steps.tag-version.outputs.version }}
+          tags: ghcr.io/xaio8/docker-test:${{ steps.tag-version.outputs.version }}
